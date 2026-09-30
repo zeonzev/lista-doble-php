@@ -1,0 +1,23 @@
+body { font-family: Arial, sans-serif; background: #f2f4f7; margin: 0; padding: 20px; color: #222; }
+.contenedor { max-width: 1050px; margin: auto; }
+h1 { color: #00695c; margin-bottom: 4px; }
+.sub { color: #666; margin-top: 0; }
+.caja { background: #fff; border-radius: 8px; padding: 18px; margin-bottom: 18px; box-shadow: 0 1px 4px rgba(0,0,0,.1); }
+.fila { display: flex; gap: 12px; flex-wrap: wrap; margin-bottom: 10px; }
+.campo { flex: 1 1 200px; display: flex; flex-direction: column; }
+label { font-size: 13px; font-weight: bold; margin-bottom: 4px; }
+input, select { padding: 8px; border: 1px solid #bbb; border-radius: 4px; }
+button, .boton { padding: 9px 14px; border: none; border-radius: 4px; color: #fff; cursor: pointer; font-weight: bold; font-size: 14px; text-decoration: none; }
+.verde { background: #2e7d32; } .rojo { background: #c62828; } .azul { background: #1565c0; } .gris { background: #546e7a; }
+.botones { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; }
+.en-linea { display: flex; gap: 8px; align-items: center; }
+.mensaje { padding: 10px; border-radius: 4px; margin-bottom: 18px; }
+.ok { background: #e8f5e9; color: #1b5e20; } .error { background: #ffebee; color: #b71c1c; }
+.recorrido { font-size: 14px; color: #555; }
+.nodos { display: flex; flex-wrap: wrap; align-items: center; gap: 4px; margin: 10px 0 16px; }
+.nodo { border: 2px solid #00695c; border-radius: 6px; padding: 6px 10px; background: #e0f2f1; font-size: 13px; text-align: center; }
+.flecha { color: #00695c; font-weight: bold; }
+table { width: 100%; border-collapse: collapse; font-size: 14px; }
+th { background: #00695c; color: #fff; padding: 8px; text-align: left; }
+td { padding: 8px; border-bottom: 1px solid #ddd; }
+.vacia { text-align: center; color: #888; }
